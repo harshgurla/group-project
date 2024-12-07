@@ -1,0 +1,133 @@
+/* Background Gradient */
+body {
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%); /* soft gradient */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main Container */
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); /* stronger shadow */
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  /* Container Shadow Effect on Hover */
+  .container:hover {
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5); /* enhanced shadow on hover */
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Inputs */
+  input[type="text"], input[type="number"], select, input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 14px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f3f4f6; /* soft background color for inputs */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: all 0.3s ease;
+  }
+  
+  /* Input Focus Effect */
+  input:focus, select:focus {
+    box-shadow: 0 0 10px rgba(52, 144, 220, 0.5); /* stronger shadow on focus */
+    border-color: #3490dc; /* blue border on focus */
+    outline: none;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 20px;
+    margin: 12px 5px;
+    background-color: #3490dc; /* blue button */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(52, 144, 220, 0.3); /* blue shadow */
+  }
+  
+  button:hover {
+    background-color: #6574cd; /* purple on hover */
+    box-shadow: 0 8px 25px rgba(101, 116, 205, 0.5); /* stronger shadow */
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* slight shadow */
+  }
+  
+  table th, table td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #6574cd; /* purple for table header */
+    color: white;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .action-buttons button {
+    background-color: #38c172; /* green for edit button */
+    margin-right: 5px;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #2d995b; /* darker green on hover */
+  }
+  
+  /* Total Expenses */
+  .total-expenses {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Shadow Box for Inputs */
+  input, select {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Summary Section */
+  .summary h3 {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #3490dc; /* blue color */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
